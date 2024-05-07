@@ -16,3 +16,7 @@ function isInvalidInput(str) {
     const regex = /\d+e\d+/i; // \d [0-9] karakterlerinin kısaltması 
     return str.match(regex);
 }
+function addEntry() {
+    const targetId = '#' + entryDropdown.value;
+    const targetInputContainer= document.querySelector(targetId+ " .input-container");
+}
